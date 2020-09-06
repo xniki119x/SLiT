@@ -1,2 +1,3 @@
-![Logo](https://raw.githubusercontent.com/niki119/SLiT/master/src/main/resources/assets/slit/logo.png)
+![Logo](https://github.com/xniki119x/SLiT/blob/master/src/main/resources/logo.png?raw=true)
 # SLiT
+Add in game different instruments
