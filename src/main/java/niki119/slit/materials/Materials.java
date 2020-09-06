@@ -1,13 +1,9 @@
 package niki119.slit.materials;
 
-import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.util.EnumHelper;
-import niki119.slit.NikiTools;
-import niki119.slit.creativetab.CreativeTab;
 
 public class Materials {
     public static Item.ToolMaterial DIRT = EnumHelper.addToolMaterial(
@@ -18,7 +14,7 @@ public class Materials {
             .setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.STONE)));
     public static Item.ToolMaterial GRANITE = EnumHelper.addToolMaterial(
             "slit:granite_material", 1, 32, 2.0F, 1.0F, 1)
-            .setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.STONE)));
+            .setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.STONE),1,1));
     public static Item.ToolMaterial DIORITE = EnumHelper.addToolMaterial(
             "slit:diorite_material", 1, 32, 2.0F, 1.0F, 1)
             .setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.STONE)));

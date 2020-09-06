@@ -4,12 +4,13 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
-public class CreativeTab extends CreativeTabs {
-    public CreativeTab(String label) {
+public class TabSLiT extends CreativeTabs {
+    public TabSLiT(String label) {
         super(label);
     }
+
     @Override
-    public ItemStack getTabIconItem(){
+    public ItemStack createIcon() {
         return new ItemStack(Items.APPLE);
     }
 }
