@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "slit:items/andesite_pickaxe"
+    }
+}

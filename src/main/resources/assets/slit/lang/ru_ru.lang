@@ -4,3 +4,6 @@ item.dirt_pickaxe.name=Земляная кирка
 item.cobblestone_pickaxe.name=Булыжниковая кирка
 item.stone_pickaxe.name=Каменная кирка
 item.granite_pickaxe.name=Гранитная кирка
+item.diorite_pickaxe.name=Диоритовая кирка
+item.andesite_pickaxe.name=Андезитовая кирка
+item._pickaxe.name= кирка
