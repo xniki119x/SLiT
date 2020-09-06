@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    " P ",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:stone",
+      "data": 1
+    }
+  },
+  "result": {
+    "item": "slit:granite_pickaxe",
+    "count": 1
+  }
+}
