@@ -7,15 +7,15 @@
   ],
   "key": {
     "P": {
-      "item": "minecraft:stone",
-      "data": 0
+      "item": "minecraft:prismarine",
+      "data": 2
     },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "slit:stone_pickaxe",
+    "item": "slit:prismarine_dark_pickaxe",
     "count": 1
   }
 }

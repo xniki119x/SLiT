@@ -7,7 +7,7 @@
   ],
   "key": {
     "P": {
-      "item": "minecraft:cobblestone",
+      "item": "minecraft:sea_lantern",
       "data": 0
     },
     "S": {
@@ -15,7 +15,7 @@
     }
   },
   "result": {
-    "item": "slit:cobblestone_pickaxe",
+    "item": "slit:sea_lantern_pickaxe",
     "count": 1
   }
 }

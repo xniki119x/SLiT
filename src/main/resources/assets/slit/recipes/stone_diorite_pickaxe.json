@@ -8,14 +8,14 @@
   "key": {
     "P": {
       "item": "minecraft:stone",
-      "data": 0
+      "data": 3
     },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "slit:stone_pickaxe",
+    "item": "slit:stone_diorite_pickaxe",
     "count": 1
   }
 }

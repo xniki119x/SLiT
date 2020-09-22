@@ -2,17 +2,14 @@ package niki119.slit.items.pickaxe;
 
 import niki119.slit.materials.Materials;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Pickaxes {
     public static final PickaxeBase BEACON = new PickaxeBase("beacon_pickaxe", Materials.BEACON);
     public static final PickaxeBase BEDROCK = new PickaxeBase("bedrock_pickaxe", Materials.BEDROCK);
-    public static final PickaxeBase BONE_BLOCK_SIDE = new PickaxeBase("bone_block_side_pickaxe", Materials.BONE_BLOCK_SIDE);
+    public static final PickaxeBase BONE_BLOCK = new PickaxeBase("bone_block_pickaxe", Materials.BONE_BLOCK);
     public static final PickaxeBase BRICK = new PickaxeBase("brick_pickaxe", Materials.BRICK);
-    public static final PickaxeBase CACTUS_SIDE = new PickaxeBase("cactus_side_pickaxe", Materials.CACTUS_SIDE);
-    public static final PickaxeBase CAKE_TOP = new PickaxeBase("cake_top_pickaxe", Materials.CAKE_TOP);
-    public static final PickaxeBase CHORUS_FLOWER = new PickaxeBase("chorus_flower_pickaxe", Materials.CHORUS_FLOWER);
+    public static final PickaxeBase CACTUS = new PickaxeBase("cactus_pickaxe", Materials.CACTUS);
+    public static final PickaxeBase CAKE = new PickaxeBase("cake_pickaxe", Materials.CAKE);
+    public static final PickaxeBase CHORUS = new PickaxeBase("chorus_pickaxe", Materials.CHORUS);
     public static final PickaxeBase CLAY = new PickaxeBase("clay_pickaxe", Materials.CLAY);
     public static final PickaxeBase COAL_BLOCK = new PickaxeBase("coal_block_pickaxe", Materials.COAL_BLOCK);
     public static final PickaxeBase COBBLESTONE_MOSSY = new PickaxeBase("cobblestone_mossy_pickaxe", Materials.COBBLESTONE_MOSSY);
@@ -23,22 +20,22 @@ public class Pickaxes {
     public static final PickaxeBase GLOWSTONE = new PickaxeBase("glowstone_pickaxe", Materials.GLOWSTONE);
     public static final PickaxeBase GRAVEL = new PickaxeBase("gravel_pickaxe", Materials.GRAVEL);
     public static final PickaxeBase HARDENED_CLAY = new PickaxeBase("hardened_clay_pickaxe", Materials.HARDENED_CLAY);
-    public static final PickaxeBase HAY_BLOCK_TOP = new PickaxeBase("hay_block_top_pickaxe", Materials.HAY_BLOCK_TOP);
+    public static final PickaxeBase HAY_BLOCK = new PickaxeBase("hay_block_pickaxe", Materials.HAY_BLOCK);
     public static final PickaxeBase ICE = new PickaxeBase("ice_pickaxe", Materials.ICE);
     public static final PickaxeBase LAPIS_BLOCK = new PickaxeBase("lapis_block_pickaxe", Materials.LAPIS_BLOCK);
     public static final PickaxeBase MAGMA = new PickaxeBase("magma_pickaxe", Materials.MAGMA);
-    public static final PickaxeBase MELON_SIDE = new PickaxeBase("melon_side_pickaxe", Materials.MELON_SIDE);
-    public static final PickaxeBase MUSHROOM_BLOCK_SKIN_BROWN = new PickaxeBase("mushroom_block_skin_brown_pickaxe", Materials.MUSHROOM_BLOCK_SKIN_BROWN);
-    public static final PickaxeBase MUSHROOM_BLOCK_SKIN_RED = new PickaxeBase("mushroom_block_skin_red_pickaxe", Materials.MUSHROOM_BLOCK_SKIN_RED);
+    public static final PickaxeBase MELON = new PickaxeBase("melon_pickaxe", Materials.MELON);
+    public static final PickaxeBase MUSHROOM_BLOCK_BROWN = new PickaxeBase("mushroom_block_brown_pickaxe", Materials.MUSHROOM_BLOCK_BROWN);
+    public static final PickaxeBase MUSHROOM_BLOCK_RED = new PickaxeBase("mushroom_block_red_pickaxe", Materials.MUSHROOM_BLOCK_RED);
     public static final PickaxeBase NETHERRACK = new PickaxeBase("netherrack_pickaxe", Materials.NETHERRACK);
     public static final PickaxeBase NETHER_BRICK = new PickaxeBase("nether_brick_pickaxe", Materials.NETHER_BRICK);
     public static final PickaxeBase NOTEBLOCK = new PickaxeBase("noteblock_pickaxe", Materials.NOTEBLOCK);
     public static final PickaxeBase OBSIDIAN = new PickaxeBase("obsidian_pickaxe", Materials.OBSIDIAN);
     public static final PickaxeBase PRISMARINE_DARK = new PickaxeBase("prismarine_dark_pickaxe", Materials.PRISMARINE_DARK);
     public static final PickaxeBase PRISMARINE_ROUGH = new PickaxeBase("prismarine_rough_pickaxe", Materials.PRISMARINE_ROUGH);
-    public static final PickaxeBase PUMPKIN_SIDE = new PickaxeBase("pumpkin_side_pickaxe", Materials.PUMPKIN_SIDE);
+    public static final PickaxeBase PUMPKIN = new PickaxeBase("pumpkin_pickaxe", Materials.PUMPKIN_SIDE);
     public static final PickaxeBase PURPUR_BLOCK = new PickaxeBase("purpur_block_pickaxe", Materials.PURPUR_BLOCK);
-    public static final PickaxeBase QUARTZ_BLOCK_SIDE = new PickaxeBase("quartz_block_side_pickaxe", Materials.QUARTZ_BLOCK_SIDE);
+    public static final PickaxeBase QUARTZ_BLOCK = new PickaxeBase("quartz_block_pickaxe", Materials.QUARTZ_BLOCK);
     public static final PickaxeBase REDSTONE_BLOCK = new PickaxeBase("redstone_block_pickaxe", Materials.REDSTONE_BLOCK);
     public static final PickaxeBase RED_NETHER_BRICK = new PickaxeBase("red_nether_brick_pickaxe", Materials.RED_NETHER_BRICK);
     public static final PickaxeBase RED_SAND = new PickaxeBase("red_sand_pickaxe", Materials.RED_SAND);
@@ -52,6 +49,6 @@ public class Pickaxes {
     public static final PickaxeBase STONE_ANDESITE = new PickaxeBase("stone_andesite_pickaxe", Materials.STONE_ANDESITE);
     public static final PickaxeBase STONE_DIORITE = new PickaxeBase("stone_diorite_pickaxe", Materials.STONE_DIORITE);
     public static final PickaxeBase STONE_GRANITE = new PickaxeBase("stone_granite_pickaxe", Materials.STONE_GRANITE);
-    public static final PickaxeBase TNT_BOTTOM = new PickaxeBase("tnt_bottom_pickaxe", Materials.TNT_BOTTOM);
-    public static final PickaxeBase WOOL_COLORED_WHITE = new PickaxeBase("wool_colored_white_pickaxe", Materials.WOOL_COLORED_WHITE);
+    public static final PickaxeBase TNT = new PickaxeBase("tnt_pickaxe", Materials.TNT);
+    public static final PickaxeBase WOOL = new PickaxeBase("wool_pickaxe", Materials.WOOL);
 }

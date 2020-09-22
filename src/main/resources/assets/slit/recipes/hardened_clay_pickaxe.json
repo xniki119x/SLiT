@@ -7,7 +7,7 @@
   ],
   "key": {
     "P": {
-      "item": "minecraft:stone",
+      "item": "minecraft:hardened_clay",
       "data": 0
     },
     "S": {
@@ -15,7 +15,7 @@
     }
   },
   "result": {
-    "item": "slit:stone_pickaxe",
+    "item": "slit:hardened_clay_pickaxe",
     "count": 1
   }
 }

@@ -16,11 +16,11 @@ public class ItemRegistry {
     public static void register() {
         setRegister(BEACON);
         setRegister(BEDROCK);
-        setRegister(BONE_BLOCK_SIDE);
+        setRegister(BONE_BLOCK);
         setRegister(BRICK);
-        setRegister(CACTUS_SIDE);
-        setRegister(CAKE_TOP);
-        setRegister(CHORUS_FLOWER);
+        setRegister(CACTUS);
+        setRegister(CAKE);
+        setRegister(CHORUS);
         setRegister(CLAY);
         setRegister(COAL_BLOCK);
         setRegister(COBBLESTONE_MOSSY);
@@ -31,22 +31,22 @@ public class ItemRegistry {
         setRegister(GLOWSTONE);
         setRegister(GRAVEL);
         setRegister(HARDENED_CLAY);
-        setRegister(HAY_BLOCK_TOP);
+        setRegister(HAY_BLOCK);
         setRegister(ICE);
         setRegister(LAPIS_BLOCK);
         setRegister(MAGMA);
-        setRegister(MELON_SIDE);
-        setRegister(MUSHROOM_BLOCK_SKIN_BROWN);
-        setRegister(MUSHROOM_BLOCK_SKIN_RED);
+        setRegister(MELON);
+        setRegister(MUSHROOM_BLOCK_BROWN);
+        setRegister(MUSHROOM_BLOCK_RED);
         setRegister(NETHERRACK);
         setRegister(NETHER_BRICK);
         setRegister(NOTEBLOCK);
         setRegister(OBSIDIAN);
         setRegister(PRISMARINE_DARK);
         setRegister(PRISMARINE_ROUGH);
-        setRegister(PUMPKIN_SIDE);
+        setRegister(PUMPKIN);
         setRegister(PURPUR_BLOCK);
-        setRegister(QUARTZ_BLOCK_SIDE);
+        setRegister(QUARTZ_BLOCK);
         setRegister(REDSTONE_BLOCK);
         setRegister(RED_NETHER_BRICK);
         setRegister(RED_SAND);
@@ -60,8 +60,8 @@ public class ItemRegistry {
         setRegister(STONE_ANDESITE);
         setRegister(STONE_DIORITE);
         setRegister(STONE_GRANITE);
-        setRegister(TNT_BOTTOM);
-        setRegister(WOOL_COLORED_WHITE);
+        setRegister(TNT);
+        setRegister(WOOL);
 
     }
 
@@ -69,11 +69,11 @@ public class ItemRegistry {
     public static void registerRender() {
         setRender(BEACON);
         setRender(BEDROCK);
-        setRender(BONE_BLOCK_SIDE);
+        setRender(BONE_BLOCK);
         setRender(BRICK);
-        setRender(CACTUS_SIDE);
-        setRender(CAKE_TOP);
-        setRender(CHORUS_FLOWER);
+        setRender(CACTUS);
+        setRender(CAKE);
+        setRender(CHORUS);
         setRender(CLAY);
         setRender(COAL_BLOCK);
         setRender(COBBLESTONE_MOSSY);
@@ -84,22 +84,22 @@ public class ItemRegistry {
         setRender(GLOWSTONE);
         setRender(GRAVEL);
         setRender(HARDENED_CLAY);
-        setRender(HAY_BLOCK_TOP);
+        setRender(HAY_BLOCK);
         setRender(ICE);
         setRender(LAPIS_BLOCK);
         setRender(MAGMA);
-        setRender(MELON_SIDE);
-        setRender(MUSHROOM_BLOCK_SKIN_BROWN);
-        setRender(MUSHROOM_BLOCK_SKIN_RED);
+        setRender(MELON);
+        setRender(MUSHROOM_BLOCK_BROWN);
+        setRender(MUSHROOM_BLOCK_RED);
         setRender(NETHERRACK);
         setRender(NETHER_BRICK);
         setRender(NOTEBLOCK);
         setRender(OBSIDIAN);
         setRender(PRISMARINE_DARK);
         setRender(PRISMARINE_ROUGH);
-        setRender(PUMPKIN_SIDE);
+        setRender(PUMPKIN);
         setRender(PURPUR_BLOCK);
-        setRender(QUARTZ_BLOCK_SIDE);
+        setRender(QUARTZ_BLOCK);
         setRender(REDSTONE_BLOCK);
         setRender(RED_NETHER_BRICK);
         setRender(RED_SAND);
@@ -113,8 +113,8 @@ public class ItemRegistry {
         setRender(STONE_ANDESITE);
         setRender(STONE_DIORITE);
         setRender(STONE_GRANITE);
-        setRender(TNT_BOTTOM);
-        setRender(WOOL_COLORED_WHITE);
+        setRender(TNT);
+        setRender(WOOL);
     }
 
     private static void setRegister(Item item)
