@@ -14,7 +14,7 @@ import niki119.slit.proxy.CommonProxy;
 public class SLiT {
     public static final String MODID = "slit";
     public static final String NAME = "SLiT";
-    public static final String VERSION = "0.0.1-ALPHA";
+    public static final String VERSION = "@VERSION@";
     public static final CreativeTabs creativeTab = new TabSLiT("creative_tab");
     public static final String CLIENT_PROXY = "niki119.slit.proxy.ClientProxy";
     public static final String COMMON_PROXY = "niki119.slit.proxy.CommonProxy";

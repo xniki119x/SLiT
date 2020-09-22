@@ -2,30 +2,58 @@ package niki119.slit.materials;
 
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
+import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class Materials {
-    public static Item.ToolMaterial DIRT = EnumHelper.addToolMaterial(
-            "slit:dirt_material", 0, 2, 1.0F, -1.0F, 1)
-            .setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.DIRT)));
-    public static Item.ToolMaterial STONE = EnumHelper.addToolMaterial(
-            "slit:stone_material", 1, 40, 2.5F, 1.5F, 1)
-            .setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.STONE)));
-    public static Item.ToolMaterial GRANITE = EnumHelper.addToolMaterial(
-            "slit:granite_material", 1, 32, 2.0F, 1.0F, 1)
-            .setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.STONE),1,1));
-    public static Item.ToolMaterial DIORITE = EnumHelper.addToolMaterial(
-            "slit:diorite_material", 1, 32, 2.0F, 1.0F, 1)
-            .setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.STONE)));
-    public static Item.ToolMaterial ANDESITE = EnumHelper.addToolMaterial(
-            "slit:andesite_material", 1, 32, 2.0F, 1.0F, 1)
-            .setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.STONE)));
-    public static Item.ToolMaterial COBBLESTONE = EnumHelper.addToolMaterial(
-            "slit:cobblestone_material", 1, 32, 2.0F, 1.0F, 1)
-            .setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.STONE)));
-    public static Item.ToolMaterial OAK = EnumHelper.addToolMaterial(
-            "slit:oak_material", 1, 16, 1.5F, 0.0F, 1)
-            .setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.LOG)));
-
+    public static ToolMaterial BEACON = EnumHelper.addToolMaterial("slit:beacon_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.BEACON)));
+    public static ToolMaterial BEDROCK = EnumHelper.addToolMaterial("slit:bedrock_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.BEDROCK)));
+    public static ToolMaterial BONE_BLOCK_SIDE = EnumHelper.addToolMaterial("slit:bone_block_side_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.BONE_BLOCK)));
+    public static ToolMaterial BRICK = EnumHelper.addToolMaterial("slit:brick_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.BRICK_BLOCK)));
+    public static ToolMaterial CACTUS_SIDE = EnumHelper.addToolMaterial("slit:cactus_side_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.CACTUS)));
+    public static ToolMaterial CAKE_TOP = EnumHelper.addToolMaterial("slit:cake_top_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.CAKE)));
+    public static ToolMaterial CHORUS_FLOWER = EnumHelper.addToolMaterial("slit:chorus_flower_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.CHORUS_FLOWER)));
+    public static ToolMaterial CLAY = EnumHelper.addToolMaterial("slit:clay_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.CLAY)));
+    public static ToolMaterial COAL_BLOCK = EnumHelper.addToolMaterial("slit:coal_block_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.COAL_BLOCK)));
+    public static ToolMaterial COBBLESTONE = EnumHelper.addToolMaterial("slit:cobblestone_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.COBBLESTONE)));
+    public static ToolMaterial COBBLESTONE_MOSSY = EnumHelper.addToolMaterial("slit:cobblestone_mossy_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.MOSSY_COBBLESTONE)));
+    public static ToolMaterial DIRT = EnumHelper.addToolMaterial("slit:dirt_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.DIRT)));
+    public static ToolMaterial EMERALD_BLOCK = EnumHelper.addToolMaterial("slit:emerald_block_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.EMERALD_BLOCK)));
+    public static ToolMaterial END_STONE = EnumHelper.addToolMaterial("slit:end_stone_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.END_STONE)));
+    public static ToolMaterial GLASS = EnumHelper.addToolMaterial("slit:glass_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.GLASS)));
+    public static ToolMaterial GLOWSTONE = EnumHelper.addToolMaterial("slit:glowstone_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.GLOWSTONE)));
+    public static ToolMaterial GRAVEL = EnumHelper.addToolMaterial("slit:gravel_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.GRAVEL)));
+    public static ToolMaterial HARDENED_CLAY = EnumHelper.addToolMaterial("slit:hardened_clay_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.HARDENED_CLAY)));
+    public static ToolMaterial HAY_BLOCK_TOP = EnumHelper.addToolMaterial("slit:hay_block_top_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.HAY_BLOCK)));
+    public static ToolMaterial ICE = EnumHelper.addToolMaterial("slit:ice_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.ICE)));
+    public static ToolMaterial LAPIS_BLOCK = EnumHelper.addToolMaterial("slit:lapis_block_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.LAPIS_BLOCK)));
+    public static ToolMaterial MAGMA = EnumHelper.addToolMaterial("slit:magma_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.MAGMA)));
+    public static ToolMaterial MELON_SIDE = EnumHelper.addToolMaterial("slit:melon_side_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.MELON_BLOCK)));
+    public static ToolMaterial MUSHROOM_BLOCK_SKIN_BROWN = EnumHelper.addToolMaterial("slit:mushroom_block_skin_brown_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.BROWN_MUSHROOM_BLOCK)));
+    public static ToolMaterial MUSHROOM_BLOCK_SKIN_RED = EnumHelper.addToolMaterial("slit:mushroom_block_skin_red_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.RED_MUSHROOM_BLOCK)));
+    public static ToolMaterial NETHERRACK = EnumHelper.addToolMaterial("slit:netherrack_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.NETHERRACK)));
+    public static ToolMaterial NETHER_BRICK = EnumHelper.addToolMaterial("slit:nether_brick_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.NETHER_BRICK)));
+    public static ToolMaterial NOTEBLOCK = EnumHelper.addToolMaterial("slit:noteblock_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.NOTEBLOCK)));
+    public static ToolMaterial OBSIDIAN = EnumHelper.addToolMaterial("slit:obsidian_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.OBSIDIAN)));
+    public static ToolMaterial PRISMARINE_DARK = EnumHelper.addToolMaterial("slit:prismarine_dark_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.PRISMARINE),1,2));
+    public static ToolMaterial PRISMARINE_ROUGH = EnumHelper.addToolMaterial("slit:prismarine_rough_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.PRISMARINE),1,0));
+    public static ToolMaterial PUMPKIN_SIDE = EnumHelper.addToolMaterial("slit:pumpkin_side_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.PUMPKIN)));
+    public static ToolMaterial PURPUR_BLOCK = EnumHelper.addToolMaterial("slit:purpur_block_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.PURPUR_BLOCK)));
+    public static ToolMaterial QUARTZ_BLOCK_SIDE = EnumHelper.addToolMaterial("slit:quartz_block_side_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.QUARTZ_BLOCK)));
+    public static ToolMaterial REDSTONE_BLOCK = EnumHelper.addToolMaterial("slit:redstone_block_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.REDSTONE_BLOCK)));
+    public static ToolMaterial RED_NETHER_BRICK = EnumHelper.addToolMaterial("slit:red_nether_brick_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.RED_NETHER_BRICK)));
+    public static ToolMaterial RED_SAND = EnumHelper.addToolMaterial("slit:red_sand_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.SAND),1,1));
+    public static ToolMaterial SAND = EnumHelper.addToolMaterial("slit:sand_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.SAND)));
+    public static ToolMaterial SEA_LANTERN = EnumHelper.addToolMaterial("slit:sea_lantern_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.SEA_LANTERN)));
+    public static ToolMaterial SLIME = EnumHelper.addToolMaterial("slit:slime_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.SLIME_BLOCK)));
+    public static ToolMaterial SNOW = EnumHelper.addToolMaterial("slit:snow_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.SNOW)));
+    public static ToolMaterial SOUL_SAND = EnumHelper.addToolMaterial("slit:soul_sand_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.SOUL_SAND)));
+    public static ToolMaterial SPONGE = EnumHelper.addToolMaterial("slit:sponge_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.SPONGE)));
+    public static ToolMaterial STONE = EnumHelper.addToolMaterial("slit:stone_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.STONE)));
+    public static ToolMaterial STONE_ANDESITE = EnumHelper.addToolMaterial("slit:stone_andesite_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.STONE),1,5));
+    public static ToolMaterial STONE_DIORITE = EnumHelper.addToolMaterial("slit:stone_diorite_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.STONE),1,3));
+    public static ToolMaterial STONE_GRANITE = EnumHelper.addToolMaterial("slit:stone_granite_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.STONE),1,1));
+    public static ToolMaterial TNT_BOTTOM = EnumHelper.addToolMaterial("slit:tnt_bottom_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.TNT)));
+    public static ToolMaterial WOOL_COLORED_WHITE = EnumHelper.addToolMaterial("slit:wool_colored_white_material",1,15,2.0F,2.0F,1).setRepairItem(new ItemStack(Item.getItemFromBlock(Blocks.WOOL)));
 }

@@ -2,13 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "PPP",
-    " P ",
-    " P "
+    " S ",
+    " S "
   ],
   "key": {
     "P": {
       "item": "minecraft:cobblestone",
       "data": 0
+    },
+    "S": {
+      "item": "minecraft:stick"
     }
   },
   "result": {
