@@ -1,1 +1,7 @@
-{"parent":"item/handheld","textures":{"layer0":"slit:items/wool_colored_white_pickaxe"}}
+{
+  "parent":"item/handheld",
+  "textures":
+    {
+      "layer0":"slit:items/wool_pickaxe"
+    }
+}

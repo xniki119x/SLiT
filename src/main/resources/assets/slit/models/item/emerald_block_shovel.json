@@ -1,0 +1,7 @@
+{
+  "parent":"item/handheld",
+  "textures":
+    {
+      "layer0":"slit:items/emerald_block_shovel"
+    }
+}

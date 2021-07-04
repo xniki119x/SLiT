@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:wool",
+      "data": 0
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "slit:wool_hoe",
+    "count": 1
+  }
+}

@@ -1,1 +1,7 @@
-{"parent":"item/handheld","textures":{"layer0":"slit:items/bone_block_side_pickaxe"}}
+{
+  "parent":"item/handheld",
+  "textures":
+    {
+      "layer0":"slit:items/bone_block_pickaxe"
+    }
+}

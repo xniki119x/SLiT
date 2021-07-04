@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    " P ",
+    " S "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:melon_block",
+      "data": 0
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "slit:melon_sword",
+    "count": 1
+  }
+}

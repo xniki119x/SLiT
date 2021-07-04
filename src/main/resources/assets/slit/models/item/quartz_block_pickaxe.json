@@ -1,1 +1,7 @@
-{"parent":"item/handheld","textures":{"layer0":"slit:items/quartz_block_side_pickaxe"}}
+{
+  "parent":"item/handheld",
+  "textures":
+    {
+      "layer0":"slit:items/quartz_block_pickaxe"
+    }
+}

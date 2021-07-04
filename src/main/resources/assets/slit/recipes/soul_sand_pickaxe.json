@@ -2,16 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "PPP",
-    " S ",
-    " S "
+    " P ",
+    " P "
   ],
   "key": {
     "P": {
       "item": "minecraft:soul_sand",
       "data": 0
-    },
-    "S": {
-      "item": "minecraft:stick"
     }
   },
   "result": {

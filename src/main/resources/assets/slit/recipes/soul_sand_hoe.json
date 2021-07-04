@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    " p",
+    " p"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:soul_sand",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "slit:soul_sand_hoe",
+    "count": 1
+  }
+}

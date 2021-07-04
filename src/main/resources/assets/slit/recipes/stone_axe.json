@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP ",
+    "PS ",
+    " S "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:stone",
+      "data": 0
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "slit:stone_axe",
+    "count": 1
+  }
+}

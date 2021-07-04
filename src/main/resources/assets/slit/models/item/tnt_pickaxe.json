@@ -1,1 +1,7 @@
-{"parent":"item/handheld","textures":{"layer0":"slit:items/tnt_bottom_pickaxe"}}
+{
+  "parent":"item/handheld",
+  "textures":
+    {
+      "layer0":"slit:items/tnt_pickaxe"
+    }
+}

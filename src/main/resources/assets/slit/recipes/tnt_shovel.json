@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:tnt",
+      "data": 0
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "slit:tnt_shovel",
+    "count": 1
+  }
+}

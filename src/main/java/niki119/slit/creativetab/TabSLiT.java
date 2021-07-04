@@ -1,9 +1,8 @@
 package niki119.slit.creativetab;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
-import niki119.slit.items.pickaxe.Pickaxes;
+import niki119.slit.items.ModItems;
 
 public class TabSLiT extends CreativeTabs {
     public TabSLiT(String label) {
@@ -12,6 +11,6 @@ public class TabSLiT extends CreativeTabs {
 
     @Override
     public ItemStack createIcon() {
-        return new ItemStack(Pickaxes.DIRT);
+        return new ItemStack(ModItems.DIRTPICKAXE);
     }
 }
