@@ -8,6 +8,6 @@ public class Prismarine_roughHoe extends ItemHoe {
   super(material);
   setRegistryName("prismarine_rough_hoe");
   setTranslationKey("prismarine_rough_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

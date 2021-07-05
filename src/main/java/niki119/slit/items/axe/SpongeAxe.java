@@ -8,6 +8,6 @@ public class SpongeAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("sponge_axe");
   setTranslationKey("sponge_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

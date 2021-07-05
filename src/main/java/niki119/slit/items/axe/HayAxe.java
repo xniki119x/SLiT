@@ -8,6 +8,6 @@ public class HayAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("hay_axe");
   setTranslationKey("hay_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

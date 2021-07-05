@@ -8,6 +8,6 @@ public class Cobble_mossyPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("cobble_mossy_pickaxe");
   setTranslationKey("cobble_mossy_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

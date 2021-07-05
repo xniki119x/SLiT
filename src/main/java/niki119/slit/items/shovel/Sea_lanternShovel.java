@@ -8,6 +8,6 @@ public class Sea_lanternShovel extends ItemSpade {
   super(material);
   setRegistryName("sea_lantern_shovel");
   setTranslationKey("sea_lantern_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

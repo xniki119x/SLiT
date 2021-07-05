@@ -8,6 +8,6 @@ public class IceAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("ice_axe");
   setTranslationKey("ice_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

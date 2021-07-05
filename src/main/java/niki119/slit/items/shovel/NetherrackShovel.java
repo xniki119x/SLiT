@@ -8,6 +8,6 @@ public class NetherrackShovel extends ItemSpade {
   super(material);
   setRegistryName("netherrack_shovel");
   setTranslationKey("netherrack_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

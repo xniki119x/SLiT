@@ -8,6 +8,6 @@ public class ChorusAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("chorus_axe");
   setTranslationKey("chorus_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

@@ -8,6 +8,6 @@ public class BedrockPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("bedrock_pickaxe");
   setTranslationKey("bedrock_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

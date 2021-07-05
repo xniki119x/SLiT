@@ -8,6 +8,6 @@ public class PumpkinShovel extends ItemSpade {
   super(material);
   setRegistryName("pumpkin_shovel");
   setTranslationKey("pumpkin_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

@@ -8,6 +8,6 @@ public class SpongeHoe extends ItemHoe {
   super(material);
   setRegistryName("sponge_hoe");
   setTranslationKey("sponge_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

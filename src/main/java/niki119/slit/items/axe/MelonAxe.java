@@ -8,6 +8,6 @@ public class MelonAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("melon_axe");
   setTranslationKey("melon_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

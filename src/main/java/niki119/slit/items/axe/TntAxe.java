@@ -8,6 +8,6 @@ public class TntAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("tnt_axe");
   setTranslationKey("tnt_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

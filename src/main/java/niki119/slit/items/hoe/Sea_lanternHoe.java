@@ -8,6 +8,6 @@ public class Sea_lanternHoe extends ItemHoe {
   super(material);
   setRegistryName("sea_lantern_hoe");
   setTranslationKey("sea_lantern_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

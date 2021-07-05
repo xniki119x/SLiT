@@ -8,6 +8,6 @@ public class ClaySword extends ItemSword {
   super(material);
   setRegistryName("clay_sword");
   setTranslationKey("clay_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

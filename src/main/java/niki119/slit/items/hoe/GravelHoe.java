@@ -8,6 +8,6 @@ public class GravelHoe extends ItemHoe {
   super(material);
   setRegistryName("gravel_hoe");
   setTranslationKey("gravel_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

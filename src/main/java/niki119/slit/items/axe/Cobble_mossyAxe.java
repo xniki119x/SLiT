@@ -8,6 +8,6 @@ public class Cobble_mossyAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("cobble_mossy_axe");
   setTranslationKey("cobble_mossy_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

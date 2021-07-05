@@ -8,6 +8,6 @@ public class SnowPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("snow_pickaxe");
   setTranslationKey("snow_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

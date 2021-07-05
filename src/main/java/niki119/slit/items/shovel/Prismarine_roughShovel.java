@@ -8,6 +8,6 @@ public class Prismarine_roughShovel extends ItemSpade {
   super(material);
   setRegistryName("prismarine_rough_shovel");
   setTranslationKey("prismarine_rough_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

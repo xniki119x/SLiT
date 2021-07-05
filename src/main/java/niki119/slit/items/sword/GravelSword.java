@@ -8,6 +8,6 @@ public class GravelSword extends ItemSword {
   super(material);
   setRegistryName("gravel_sword");
   setTranslationKey("gravel_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

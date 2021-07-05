@@ -8,6 +8,6 @@ public class NotePickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("note_pickaxe");
   setTranslationKey("note_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

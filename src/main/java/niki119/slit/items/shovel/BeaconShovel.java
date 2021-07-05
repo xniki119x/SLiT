@@ -8,6 +8,6 @@ public class BeaconShovel extends ItemSpade {
   super(material);
   setRegistryName("beacon_shovel");
   setTranslationKey("beacon_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

@@ -8,6 +8,6 @@ public class GraniteShovel extends ItemSpade {
   super(material);
   setRegistryName("granite_shovel");
   setTranslationKey("granite_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

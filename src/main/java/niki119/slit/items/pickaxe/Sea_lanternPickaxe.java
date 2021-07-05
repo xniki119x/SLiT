@@ -8,6 +8,6 @@ public class Sea_lanternPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("sea_lantern_pickaxe");
   setTranslationKey("sea_lantern_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

@@ -8,6 +8,6 @@ public class MagmaShovel extends ItemSpade {
   super(material);
   setRegistryName("magma_shovel");
   setTranslationKey("magma_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

@@ -8,6 +8,6 @@ public class MagmaSword extends ItemSword {
   super(material);
   setRegistryName("magma_sword");
   setTranslationKey("magma_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

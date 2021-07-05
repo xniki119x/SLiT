@@ -8,6 +8,6 @@ public class SandHoe extends ItemHoe {
   super(material);
   setRegistryName("sand_hoe");
   setTranslationKey("sand_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

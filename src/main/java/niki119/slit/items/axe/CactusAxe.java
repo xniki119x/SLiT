@@ -8,6 +8,6 @@ public class CactusAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("cactus_axe");
   setTranslationKey("cactus_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

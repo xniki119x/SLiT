@@ -8,6 +8,6 @@ public class MelonHoe extends ItemHoe {
   super(material);
   setRegistryName("melon_hoe");
   setTranslationKey("melon_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

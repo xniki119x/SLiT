@@ -8,6 +8,6 @@ public class Bone_blockShovel extends ItemSpade {
   super(material);
   setRegistryName("bone_block_shovel");
   setTranslationKey("bone_block_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

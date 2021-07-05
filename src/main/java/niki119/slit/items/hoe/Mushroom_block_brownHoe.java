@@ -8,6 +8,6 @@ public class Mushroom_block_brownHoe extends ItemHoe {
   super(material);
   setRegistryName("mushroom_block_brown_hoe");
   setTranslationKey("mushroom_block_brown_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

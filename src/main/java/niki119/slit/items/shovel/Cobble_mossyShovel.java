@@ -8,6 +8,6 @@ public class Cobble_mossyShovel extends ItemSpade {
   super(material);
   setRegistryName("cobble_mossy_shovel");
   setTranslationKey("cobble_mossy_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

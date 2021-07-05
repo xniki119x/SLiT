@@ -8,6 +8,6 @@ public class RedstonePickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("redstone_pickaxe");
   setTranslationKey("redstone_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

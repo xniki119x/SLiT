@@ -8,6 +8,6 @@ public class Sea_lanternSword extends ItemSword {
   super(material);
   setRegistryName("sea_lantern_sword");
   setTranslationKey("sea_lantern_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

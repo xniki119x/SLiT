@@ -8,6 +8,6 @@ public class TntHoe extends ItemHoe {
   super(material);
   setRegistryName("tnt_hoe");
   setTranslationKey("tnt_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

@@ -8,6 +8,6 @@ public class BedrockSword extends ItemSword {
   super(material);
   setRegistryName("bedrock_sword");
   setTranslationKey("bedrock_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

@@ -8,6 +8,6 @@ public class SnowHoe extends ItemHoe {
   super(material);
   setRegistryName("snow_hoe");
   setTranslationKey("snow_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

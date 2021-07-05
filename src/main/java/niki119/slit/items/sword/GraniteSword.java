@@ -8,6 +8,6 @@ public class GraniteSword extends ItemSword {
   super(material);
   setRegistryName("granite_sword");
   setTranslationKey("granite_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

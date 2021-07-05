@@ -8,6 +8,6 @@ public class Red_nether_brickShovel extends ItemSpade {
   super(material);
   setRegistryName("red_nether_brick_shovel");
   setTranslationKey("red_nether_brick_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

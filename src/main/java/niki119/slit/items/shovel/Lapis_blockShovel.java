@@ -8,6 +8,6 @@ public class Lapis_blockShovel extends ItemSpade {
   super(material);
   setRegistryName("lapis_block_shovel");
   setTranslationKey("lapis_block_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

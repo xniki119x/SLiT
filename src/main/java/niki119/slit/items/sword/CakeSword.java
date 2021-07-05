@@ -8,6 +8,6 @@ public class CakeSword extends ItemSword {
   super(material);
   setRegistryName("cake_sword");
   setTranslationKey("cake_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

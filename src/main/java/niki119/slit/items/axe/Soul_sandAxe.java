@@ -8,6 +8,6 @@ public class Soul_sandAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("soul_sand_axe");
   setTranslationKey("soul_sand_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

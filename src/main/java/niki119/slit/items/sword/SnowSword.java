@@ -8,6 +8,6 @@ public class SnowSword extends ItemSword {
   super(material);
   setRegistryName("snow_sword");
   setTranslationKey("snow_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

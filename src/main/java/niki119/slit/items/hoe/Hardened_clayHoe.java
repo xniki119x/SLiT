@@ -8,6 +8,6 @@ public class Hardened_clayHoe extends ItemHoe {
   super(material);
   setRegistryName("hardened_clay_hoe");
   setTranslationKey("hardened_clay_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

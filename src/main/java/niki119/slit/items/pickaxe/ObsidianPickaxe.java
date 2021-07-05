@@ -8,6 +8,6 @@ public class ObsidianPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("obsidian_pickaxe");
   setTranslationKey("obsidian_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

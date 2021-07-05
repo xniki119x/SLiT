@@ -8,6 +8,6 @@ public class SnowAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("snow_axe");
   setTranslationKey("snow_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

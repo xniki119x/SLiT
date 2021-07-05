@@ -8,6 +8,6 @@ public class CakeShovel extends ItemSpade {
   super(material);
   setRegistryName("cake_shovel");
   setTranslationKey("cake_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

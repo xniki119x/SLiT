@@ -8,6 +8,6 @@ public class RedstoneSword extends ItemSword {
   super(material);
   setRegistryName("redstone_sword");
   setTranslationKey("redstone_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

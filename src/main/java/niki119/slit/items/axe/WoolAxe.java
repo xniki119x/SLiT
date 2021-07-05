@@ -8,6 +8,6 @@ public class WoolAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("wool_axe");
   setTranslationKey("wool_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

@@ -8,6 +8,6 @@ public class End_stoneHoe extends ItemHoe {
   super(material);
   setRegistryName("end_stone_hoe");
   setTranslationKey("end_stone_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

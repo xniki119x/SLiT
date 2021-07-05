@@ -8,6 +8,6 @@ public class BeaconHoe extends ItemHoe {
   super(material);
   setRegistryName("beacon_hoe");
   setTranslationKey("beacon_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

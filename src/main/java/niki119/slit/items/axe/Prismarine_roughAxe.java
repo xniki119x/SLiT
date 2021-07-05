@@ -8,6 +8,6 @@ public class Prismarine_roughAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("prismarine_rough_axe");
   setTranslationKey("prismarine_rough_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

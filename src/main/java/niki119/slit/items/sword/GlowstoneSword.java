@@ -8,6 +8,6 @@ public class GlowstoneSword extends ItemSword {
   super(material);
   setRegistryName("glowstone_sword");
   setTranslationKey("glowstone_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

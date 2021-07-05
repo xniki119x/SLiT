@@ -8,6 +8,6 @@ public class ObsidianSword extends ItemSword {
   super(material);
   setRegistryName("obsidian_sword");
   setTranslationKey("obsidian_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

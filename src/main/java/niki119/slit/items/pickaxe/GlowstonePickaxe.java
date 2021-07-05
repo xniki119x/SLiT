@@ -8,6 +8,6 @@ public class GlowstonePickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("glowstone_pickaxe");
   setTranslationKey("glowstone_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

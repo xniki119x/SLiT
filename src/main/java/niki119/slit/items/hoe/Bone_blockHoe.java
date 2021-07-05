@@ -8,6 +8,6 @@ public class Bone_blockHoe extends ItemHoe {
   super(material);
   setRegistryName("bone_block_hoe");
   setTranslationKey("bone_block_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

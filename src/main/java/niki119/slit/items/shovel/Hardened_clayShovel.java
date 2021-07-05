@@ -8,6 +8,6 @@ public class Hardened_clayShovel extends ItemSpade {
   super(material);
   setRegistryName("hardened_clay_shovel");
   setTranslationKey("hardened_clay_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

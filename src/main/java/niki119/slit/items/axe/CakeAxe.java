@@ -8,6 +8,6 @@ public class CakeAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("cake_axe");
   setTranslationKey("cake_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

@@ -8,6 +8,6 @@ public class DirtAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("dirt_axe");
   setTranslationKey("dirt_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

@@ -8,6 +8,6 @@ public class PurpurHoe extends ItemHoe {
   super(material);
   setRegistryName("purpur_hoe");
   setTranslationKey("purpur_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

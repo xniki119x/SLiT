@@ -8,6 +8,6 @@ public class Mushroom_block_redShovel extends ItemSpade {
   super(material);
   setRegistryName("mushroom_block_red_shovel");
   setTranslationKey("mushroom_block_red_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

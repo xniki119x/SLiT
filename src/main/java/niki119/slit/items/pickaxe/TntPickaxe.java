@@ -8,6 +8,6 @@ public class TntPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("tnt_pickaxe");
   setTranslationKey("tnt_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

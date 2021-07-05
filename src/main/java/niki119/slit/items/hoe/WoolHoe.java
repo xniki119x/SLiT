@@ -8,6 +8,6 @@ public class WoolHoe extends ItemHoe {
   super(material);
   setRegistryName("wool_hoe");
   setTranslationKey("wool_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

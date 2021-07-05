@@ -8,6 +8,6 @@ public class Prismarine_roughPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("prismarine_rough_pickaxe");
   setTranslationKey("prismarine_rough_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

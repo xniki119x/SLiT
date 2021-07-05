@@ -8,6 +8,6 @@ public class MelonPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("melon_pickaxe");
   setTranslationKey("melon_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

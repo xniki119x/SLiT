@@ -8,6 +8,6 @@ public class Quartz_blockHoe extends ItemHoe {
   super(material);
   setRegistryName("quartz_block_hoe");
   setTranslationKey("quartz_block_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

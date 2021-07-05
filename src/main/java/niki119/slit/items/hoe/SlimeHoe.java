@@ -8,6 +8,6 @@ public class SlimeHoe extends ItemHoe {
   super(material);
   setRegistryName("slime_hoe");
   setTranslationKey("slime_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

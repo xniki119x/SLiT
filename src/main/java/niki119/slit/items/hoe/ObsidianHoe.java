@@ -8,6 +8,6 @@ public class ObsidianHoe extends ItemHoe {
   super(material);
   setRegistryName("obsidian_hoe");
   setTranslationKey("obsidian_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

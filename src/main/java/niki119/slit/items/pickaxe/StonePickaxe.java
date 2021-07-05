@@ -8,6 +8,6 @@ public class StonePickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("stone_pickaxe");
   setTranslationKey("stone_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

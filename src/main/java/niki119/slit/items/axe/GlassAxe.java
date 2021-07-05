@@ -8,6 +8,6 @@ public class GlassAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("glass_axe");
   setTranslationKey("glass_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

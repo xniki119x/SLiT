@@ -8,6 +8,6 @@ public class GraniteHoe extends ItemHoe {
   super(material);
   setRegistryName("granite_hoe");
   setTranslationKey("granite_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

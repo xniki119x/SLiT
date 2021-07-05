@@ -8,6 +8,6 @@ public class NoteHoe extends ItemHoe {
   super(material);
   setRegistryName("note_hoe");
   setTranslationKey("note_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

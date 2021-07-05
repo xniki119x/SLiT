@@ -8,6 +8,6 @@ public class BedrockShovel extends ItemSpade {
   super(material);
   setRegistryName("bedrock_shovel");
   setTranslationKey("bedrock_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

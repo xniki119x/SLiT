@@ -8,6 +8,6 @@ public class NoteSword extends ItemSword {
   super(material);
   setRegistryName("note_sword");
   setTranslationKey("note_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

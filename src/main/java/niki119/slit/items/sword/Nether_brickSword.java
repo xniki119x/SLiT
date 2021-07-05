@@ -8,6 +8,6 @@ public class Nether_brickSword extends ItemSword {
   super(material);
   setRegistryName("nether_brick_sword");
   setTranslationKey("nether_brick_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

@@ -8,6 +8,6 @@ public class PurpurShovel extends ItemSpade {
   super(material);
   setRegistryName("purpur_shovel");
   setTranslationKey("purpur_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

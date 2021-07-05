@@ -8,6 +8,6 @@ public class Prismarine_darkPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("prismarine_dark_pickaxe");
   setTranslationKey("prismarine_dark_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

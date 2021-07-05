@@ -8,6 +8,6 @@ public class CoalShovel extends ItemSpade {
   super(material);
   setRegistryName("coal_shovel");
   setTranslationKey("coal_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

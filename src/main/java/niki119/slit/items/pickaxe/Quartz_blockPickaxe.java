@@ -8,6 +8,6 @@ public class Quartz_blockPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("quartz_block_pickaxe");
   setTranslationKey("quartz_block_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

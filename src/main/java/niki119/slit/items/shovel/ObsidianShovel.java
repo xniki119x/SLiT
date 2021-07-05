@@ -8,6 +8,6 @@ public class ObsidianShovel extends ItemSpade {
   super(material);
   setRegistryName("obsidian_shovel");
   setTranslationKey("obsidian_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

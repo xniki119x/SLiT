@@ -8,6 +8,6 @@ public class AndesiteHoe extends ItemHoe {
   super(material);
   setRegistryName("andesite_hoe");
   setTranslationKey("andesite_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

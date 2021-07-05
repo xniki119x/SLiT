@@ -8,6 +8,6 @@ public class TntShovel extends ItemSpade {
   super(material);
   setRegistryName("tnt_shovel");
   setTranslationKey("tnt_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

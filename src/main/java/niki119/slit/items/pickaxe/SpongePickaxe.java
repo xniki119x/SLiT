@@ -8,6 +8,6 @@ public class SpongePickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("sponge_pickaxe");
   setTranslationKey("sponge_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

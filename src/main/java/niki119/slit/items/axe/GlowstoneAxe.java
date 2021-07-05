@@ -8,6 +8,6 @@ public class GlowstoneAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("glowstone_axe");
   setTranslationKey("glowstone_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

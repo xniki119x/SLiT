@@ -8,6 +8,6 @@ public class CactusSword extends ItemSword {
   super(material);
   setRegistryName("cactus_sword");
   setTranslationKey("cactus_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

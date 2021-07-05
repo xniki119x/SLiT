@@ -8,6 +8,6 @@ public class AndesitePickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("andesite_pickaxe");
   setTranslationKey("andesite_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

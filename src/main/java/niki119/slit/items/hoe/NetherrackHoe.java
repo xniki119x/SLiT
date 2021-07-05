@@ -8,6 +8,6 @@ public class NetherrackHoe extends ItemHoe {
   super(material);
   setRegistryName("netherrack_hoe");
   setTranslationKey("netherrack_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

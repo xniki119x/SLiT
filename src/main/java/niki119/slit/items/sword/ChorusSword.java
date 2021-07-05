@@ -8,6 +8,6 @@ public class ChorusSword extends ItemSword {
   super(material);
   setRegistryName("chorus_sword");
   setTranslationKey("chorus_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

@@ -8,6 +8,6 @@ public class SpongeSword extends ItemSword {
   super(material);
   setRegistryName("sponge_sword");
   setTranslationKey("sponge_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

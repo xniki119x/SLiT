@@ -8,6 +8,6 @@ public class Cobble_mossySword extends ItemSword {
   super(material);
   setRegistryName("cobble_mossy_sword");
   setTranslationKey("cobble_mossy_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

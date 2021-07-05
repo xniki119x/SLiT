@@ -8,6 +8,6 @@ public class GlassSword extends ItemSword {
   super(material);
   setRegistryName("glass_sword");
   setTranslationKey("glass_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

@@ -8,6 +8,6 @@ public class DirtShovel extends ItemSpade {
   super(material);
   setRegistryName("dirt_shovel");
   setTranslationKey("dirt_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

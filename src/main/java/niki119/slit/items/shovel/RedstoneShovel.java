@@ -8,6 +8,6 @@ public class RedstoneShovel extends ItemSpade {
   super(material);
   setRegistryName("redstone_shovel");
   setTranslationKey("redstone_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

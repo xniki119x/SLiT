@@ -8,6 +8,6 @@ public class GlassHoe extends ItemHoe {
   super(material);
   setRegistryName("glass_hoe");
   setTranslationKey("glass_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

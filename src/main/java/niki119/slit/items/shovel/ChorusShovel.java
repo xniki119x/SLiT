@@ -8,6 +8,6 @@ public class ChorusShovel extends ItemSpade {
   super(material);
   setRegistryName("chorus_shovel");
   setTranslationKey("chorus_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

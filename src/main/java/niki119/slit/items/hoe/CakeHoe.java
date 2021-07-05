@@ -8,6 +8,6 @@ public class CakeHoe extends ItemHoe {
   super(material);
   setRegistryName("cake_hoe");
   setTranslationKey("cake_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

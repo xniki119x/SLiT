@@ -8,6 +8,6 @@ public class CoalSword extends ItemSword {
   super(material);
   setRegistryName("coal_sword");
   setTranslationKey("coal_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

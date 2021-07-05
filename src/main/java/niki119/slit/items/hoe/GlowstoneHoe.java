@@ -8,6 +8,6 @@ public class GlowstoneHoe extends ItemHoe {
   super(material);
   setRegistryName("glowstone_hoe");
   setTranslationKey("glowstone_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

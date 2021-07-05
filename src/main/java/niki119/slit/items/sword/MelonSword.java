@@ -8,6 +8,6 @@ public class MelonSword extends ItemSword {
   super(material);
   setRegistryName("melon_sword");
   setTranslationKey("melon_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

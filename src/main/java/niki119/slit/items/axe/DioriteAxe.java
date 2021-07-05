@@ -8,6 +8,6 @@ public class DioriteAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("diorite_axe");
   setTranslationKey("diorite_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

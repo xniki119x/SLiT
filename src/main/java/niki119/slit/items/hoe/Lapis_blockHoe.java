@@ -8,6 +8,6 @@ public class Lapis_blockHoe extends ItemHoe {
   super(material);
   setRegistryName("lapis_block_hoe");
   setTranslationKey("lapis_block_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

@@ -8,6 +8,6 @@ public class Red_sandPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("red_sand_pickaxe");
   setTranslationKey("red_sand_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

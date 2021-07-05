@@ -8,6 +8,6 @@ public class NetherrackPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("netherrack_pickaxe");
   setTranslationKey("netherrack_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

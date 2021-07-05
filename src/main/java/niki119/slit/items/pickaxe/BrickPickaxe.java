@@ -8,6 +8,6 @@ public class BrickPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("brick_pickaxe");
   setTranslationKey("brick_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

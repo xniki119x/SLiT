@@ -8,6 +8,6 @@ public class SlimeAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("slime_axe");
   setTranslationKey("slime_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

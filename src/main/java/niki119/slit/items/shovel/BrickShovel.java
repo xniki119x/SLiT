@@ -8,6 +8,6 @@ public class BrickShovel extends ItemSpade {
   super(material);
   setRegistryName("brick_shovel");
   setTranslationKey("brick_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

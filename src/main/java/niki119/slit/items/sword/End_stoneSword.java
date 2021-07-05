@@ -8,6 +8,6 @@ public class End_stoneSword extends ItemSword {
   super(material);
   setRegistryName("end_stone_sword");
   setTranslationKey("end_stone_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

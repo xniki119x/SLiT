@@ -8,6 +8,6 @@ public class BeaconPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("beacon_pickaxe");
   setTranslationKey("beacon_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

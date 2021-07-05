@@ -8,6 +8,6 @@ public class Cobble_mossyHoe extends ItemHoe {
   super(material);
   setRegistryName("cobble_mossy_hoe");
   setTranslationKey("cobble_mossy_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

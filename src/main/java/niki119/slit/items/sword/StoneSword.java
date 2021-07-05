@@ -8,6 +8,6 @@ public class StoneSword extends ItemSword {
   super(material);
   setRegistryName("stone_sword");
   setTranslationKey("stone_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

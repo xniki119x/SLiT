@@ -8,6 +8,6 @@ public class DioriteSword extends ItemSword {
   super(material);
   setRegistryName("diorite_sword");
   setTranslationKey("diorite_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

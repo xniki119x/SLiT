@@ -8,6 +8,6 @@ public class BedrockAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("bedrock_axe");
   setTranslationKey("bedrock_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

@@ -8,6 +8,6 @@ public class CactusShovel extends ItemSpade {
   super(material);
   setRegistryName("cactus_shovel");
   setTranslationKey("cactus_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

@@ -8,6 +8,6 @@ public class BedrockHoe extends ItemHoe {
   super(material);
   setRegistryName("bedrock_hoe");
   setTranslationKey("bedrock_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

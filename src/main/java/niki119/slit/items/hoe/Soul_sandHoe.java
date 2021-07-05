@@ -8,6 +8,6 @@ public class Soul_sandHoe extends ItemHoe {
   super(material);
   setRegistryName("soul_sand_hoe");
   setTranslationKey("soul_sand_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

@@ -8,6 +8,6 @@ public class StoneAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("stone_axe");
   setTranslationKey("stone_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

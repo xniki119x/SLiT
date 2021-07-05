@@ -8,6 +8,6 @@ public class DioriteShovel extends ItemSpade {
   super(material);
   setRegistryName("diorite_shovel");
   setTranslationKey("diorite_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

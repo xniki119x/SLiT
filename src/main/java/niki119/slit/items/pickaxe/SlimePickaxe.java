@@ -8,6 +8,6 @@ public class SlimePickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("slime_pickaxe");
   setTranslationKey("slime_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

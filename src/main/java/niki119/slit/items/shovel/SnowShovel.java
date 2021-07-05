@@ -8,6 +8,6 @@ public class SnowShovel extends ItemSpade {
   super(material);
   setRegistryName("snow_shovel");
   setTranslationKey("snow_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

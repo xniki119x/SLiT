@@ -8,6 +8,6 @@ public class ChorusHoe extends ItemHoe {
   super(material);
   setRegistryName("chorus_hoe");
   setTranslationKey("chorus_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

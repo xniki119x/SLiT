@@ -8,6 +8,6 @@ public class Prismarine_darkAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("prismarine_dark_axe");
   setTranslationKey("prismarine_dark_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

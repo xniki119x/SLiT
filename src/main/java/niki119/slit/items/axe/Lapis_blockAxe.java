@@ -8,6 +8,6 @@ public class Lapis_blockAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("lapis_block_axe");
   setTranslationKey("lapis_block_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

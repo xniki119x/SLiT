@@ -8,6 +8,6 @@ public class End_stoneShovel extends ItemSpade {
   super(material);
   setRegistryName("end_stone_shovel");
   setTranslationKey("end_stone_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

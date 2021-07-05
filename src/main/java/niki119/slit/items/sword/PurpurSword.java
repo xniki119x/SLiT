@@ -8,6 +8,6 @@ public class PurpurSword extends ItemSword {
   super(material);
   setRegistryName("purpur_sword");
   setTranslationKey("purpur_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

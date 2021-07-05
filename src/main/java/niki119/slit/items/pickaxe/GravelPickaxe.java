@@ -8,6 +8,6 @@ public class GravelPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("gravel_pickaxe");
   setTranslationKey("gravel_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

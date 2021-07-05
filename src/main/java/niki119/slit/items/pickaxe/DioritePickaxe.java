@@ -8,6 +8,6 @@ public class DioritePickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("diorite_pickaxe");
   setTranslationKey("diorite_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

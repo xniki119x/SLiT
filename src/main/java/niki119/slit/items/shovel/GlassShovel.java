@@ -8,6 +8,6 @@ public class GlassShovel extends ItemSpade {
   super(material);
   setRegistryName("glass_shovel");
   setTranslationKey("glass_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

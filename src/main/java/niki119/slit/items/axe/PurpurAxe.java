@@ -8,6 +8,6 @@ public class PurpurAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("purpur_axe");
   setTranslationKey("purpur_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

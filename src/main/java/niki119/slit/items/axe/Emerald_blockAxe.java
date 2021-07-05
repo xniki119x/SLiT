@@ -8,6 +8,6 @@ public class Emerald_blockAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("emerald_block_axe");
   setTranslationKey("emerald_block_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

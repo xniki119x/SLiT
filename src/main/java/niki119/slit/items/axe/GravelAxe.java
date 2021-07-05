@@ -8,6 +8,6 @@ public class GravelAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("gravel_axe");
   setTranslationKey("gravel_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

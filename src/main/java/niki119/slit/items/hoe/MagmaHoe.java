@@ -8,6 +8,6 @@ public class MagmaHoe extends ItemHoe {
   super(material);
   setRegistryName("magma_hoe");
   setTranslationKey("magma_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

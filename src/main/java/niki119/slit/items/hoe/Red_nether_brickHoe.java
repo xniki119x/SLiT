@@ -8,6 +8,6 @@ public class Red_nether_brickHoe extends ItemHoe {
   super(material);
   setRegistryName("red_nether_brick_hoe");
   setTranslationKey("red_nether_brick_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

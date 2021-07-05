@@ -8,6 +8,6 @@ public class GlassPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("glass_pickaxe");
   setTranslationKey("glass_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

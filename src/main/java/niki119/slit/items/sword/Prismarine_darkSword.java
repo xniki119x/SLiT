@@ -8,6 +8,6 @@ public class Prismarine_darkSword extends ItemSword {
   super(material);
   setRegistryName("prismarine_dark_sword");
   setTranslationKey("prismarine_dark_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

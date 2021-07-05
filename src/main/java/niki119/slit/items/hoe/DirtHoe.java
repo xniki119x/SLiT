@@ -8,6 +8,6 @@ public class DirtHoe extends ItemHoe {
   super(material);
   setRegistryName("dirt_hoe");
   setTranslationKey("dirt_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

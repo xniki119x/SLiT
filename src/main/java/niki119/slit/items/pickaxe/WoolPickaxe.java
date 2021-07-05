@@ -8,6 +8,6 @@ public class WoolPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("wool_pickaxe");
   setTranslationKey("wool_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

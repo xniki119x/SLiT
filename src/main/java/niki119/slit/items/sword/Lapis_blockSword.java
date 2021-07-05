@@ -8,6 +8,6 @@ public class Lapis_blockSword extends ItemSword {
   super(material);
   setRegistryName("lapis_block_sword");
   setTranslationKey("lapis_block_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

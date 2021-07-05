@@ -8,6 +8,6 @@ public class ObsidianAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("obsidian_axe");
   setTranslationKey("obsidian_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

@@ -8,6 +8,6 @@ public class PumpkinSword extends ItemSword {
   super(material);
   setRegistryName("pumpkin_sword");
   setTranslationKey("pumpkin_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

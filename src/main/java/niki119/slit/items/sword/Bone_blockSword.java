@@ -8,6 +8,6 @@ public class Bone_blockSword extends ItemSword {
   super(material);
   setRegistryName("bone_block_sword");
   setTranslationKey("bone_block_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

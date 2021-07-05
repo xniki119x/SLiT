@@ -8,6 +8,6 @@ public class SlimeShovel extends ItemSpade {
   super(material);
   setRegistryName("slime_shovel");
   setTranslationKey("slime_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

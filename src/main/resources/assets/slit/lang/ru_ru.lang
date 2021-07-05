@@ -1,4 +1,8 @@
-itemGroup.creative_tab=SLiT
+itemGroup.creative_tab_pickaxe=SLiT Кирки
+itemGroup.creative_tab_axe=SLiT Топоры
+itemGroup.creative_tab_sword=SLiT Мечи
+itemGroup.creative_tab_shovel=SLiT Лопаты
+itemGroup.creative_tab_hoe=SLiT Мотыги
 #-----------
 #---Кирки---
 #-----------

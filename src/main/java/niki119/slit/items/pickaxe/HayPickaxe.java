@@ -8,6 +8,6 @@ public class HayPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("hay_pickaxe");
   setTranslationKey("hay_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

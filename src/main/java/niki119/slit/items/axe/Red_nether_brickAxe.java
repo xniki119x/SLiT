@@ -8,6 +8,6 @@ public class Red_nether_brickAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("red_nether_brick_axe");
   setTranslationKey("red_nether_brick_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

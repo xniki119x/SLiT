@@ -8,6 +8,6 @@ public class RedstoneAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("redstone_axe");
   setTranslationKey("redstone_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

@@ -15,7 +15,11 @@ public class SLiT {
     public static final String MODID = "slit";
     public static final String NAME = "SLiT";
     public static final String VERSION = "@VERSION@";
-    public static final CreativeTabs creativeTab = new TabSLiT("creative_tab");
+    public static final CreativeTabs creativeTabPickaxe = new TabSLiT("creative_tab_pickaxe");
+    public static final CreativeTabs creativeTabAxe = new TabSLiT("creative_tab_axe");
+    public static final CreativeTabs creativeTabSword = new TabSLiT("creative_tab_sword");
+    public static final CreativeTabs creativeTabHoe = new TabSLiT("creative_tab_hoe");
+    public static final CreativeTabs creativeTabShovel = new TabSLiT("creative_tab_shovel");
     public static final String CLIENT_PROXY = "niki119.slit.proxy.ClientProxy";
     public static final String COMMON_PROXY = "niki119.slit.proxy.CommonProxy";
     @Mod.Instance(owner = "niki119")

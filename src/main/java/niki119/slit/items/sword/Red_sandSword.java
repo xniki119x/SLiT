@@ -8,6 +8,6 @@ public class Red_sandSword extends ItemSword {
   super(material);
   setRegistryName("red_sand_sword");
   setTranslationKey("red_sand_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

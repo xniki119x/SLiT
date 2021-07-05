@@ -8,6 +8,6 @@ public class CoalHoe extends ItemHoe {
   super(material);
   setRegistryName("coal_hoe");
   setTranslationKey("coal_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

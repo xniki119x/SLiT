@@ -8,6 +8,6 @@ public class DirtSword extends ItemSword {
   super(material);
   setRegistryName("dirt_sword");
   setTranslationKey("dirt_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

@@ -8,6 +8,6 @@ public class CakePickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("cake_pickaxe");
   setTranslationKey("cake_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

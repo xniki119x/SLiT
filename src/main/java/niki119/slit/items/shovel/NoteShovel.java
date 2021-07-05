@@ -8,6 +8,6 @@ public class NoteShovel extends ItemSpade {
   super(material);
   setRegistryName("note_shovel");
   setTranslationKey("note_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

@@ -8,6 +8,6 @@ public class DioriteHoe extends ItemHoe {
   super(material);
   setRegistryName("diorite_hoe");
   setTranslationKey("diorite_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

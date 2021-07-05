@@ -8,6 +8,6 @@ public class MagmaPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("magma_pickaxe");
   setTranslationKey("magma_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

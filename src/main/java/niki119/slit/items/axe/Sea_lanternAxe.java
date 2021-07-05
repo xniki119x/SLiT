@@ -8,6 +8,6 @@ public class Sea_lanternAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("sea_lantern_axe");
   setTranslationKey("sea_lantern_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

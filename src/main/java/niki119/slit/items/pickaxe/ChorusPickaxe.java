@@ -8,6 +8,6 @@ public class ChorusPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("chorus_pickaxe");
   setTranslationKey("chorus_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

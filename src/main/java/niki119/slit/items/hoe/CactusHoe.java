@@ -8,6 +8,6 @@ public class CactusHoe extends ItemHoe {
   super(material);
   setRegistryName("cactus_hoe");
   setTranslationKey("cactus_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

@@ -8,6 +8,6 @@ public class TntSword extends ItemSword {
   super(material);
   setRegistryName("tnt_sword");
   setTranslationKey("tnt_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

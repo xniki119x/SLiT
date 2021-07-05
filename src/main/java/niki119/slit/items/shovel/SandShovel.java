@@ -8,6 +8,6 @@ public class SandShovel extends ItemSpade {
   super(material);
   setRegistryName("sand_shovel");
   setTranslationKey("sand_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

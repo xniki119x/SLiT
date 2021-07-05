@@ -8,6 +8,6 @@ public class PumpkinHoe extends ItemHoe {
   super(material);
   setRegistryName("pumpkin_hoe");
   setTranslationKey("pumpkin_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

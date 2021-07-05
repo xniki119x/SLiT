@@ -8,6 +8,6 @@ public class MelonShovel extends ItemSpade {
   super(material);
   setRegistryName("melon_shovel");
   setTranslationKey("melon_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

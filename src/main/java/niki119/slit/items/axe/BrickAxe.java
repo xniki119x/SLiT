@@ -8,6 +8,6 @@ public class BrickAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("brick_axe");
   setTranslationKey("brick_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

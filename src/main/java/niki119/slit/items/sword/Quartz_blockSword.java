@@ -8,6 +8,6 @@ public class Quartz_blockSword extends ItemSword {
   super(material);
   setRegistryName("quartz_block_sword");
   setTranslationKey("quartz_block_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

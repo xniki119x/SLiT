@@ -8,6 +8,6 @@ public class Hardened_clayAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("hardened_clay_axe");
   setTranslationKey("hardened_clay_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

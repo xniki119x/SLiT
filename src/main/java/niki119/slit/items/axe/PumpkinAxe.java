@@ -8,6 +8,6 @@ public class PumpkinAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("pumpkin_axe");
   setTranslationKey("pumpkin_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

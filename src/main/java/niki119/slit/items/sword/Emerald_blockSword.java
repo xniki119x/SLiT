@@ -8,6 +8,6 @@ public class Emerald_blockSword extends ItemSword {
   super(material);
   setRegistryName("emerald_block_sword");
   setTranslationKey("emerald_block_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

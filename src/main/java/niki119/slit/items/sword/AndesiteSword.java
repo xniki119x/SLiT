@@ -8,6 +8,6 @@ public class AndesiteSword extends ItemSword {
   super(material);
   setRegistryName("andesite_sword");
   setTranslationKey("andesite_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

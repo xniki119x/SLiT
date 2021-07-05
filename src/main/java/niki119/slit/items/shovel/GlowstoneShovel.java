@@ -8,6 +8,6 @@ public class GlowstoneShovel extends ItemSpade {
   super(material);
   setRegistryName("glowstone_shovel");
   setTranslationKey("glowstone_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

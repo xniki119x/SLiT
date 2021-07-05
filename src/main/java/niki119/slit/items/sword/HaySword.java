@@ -8,6 +8,6 @@ public class HaySword extends ItemSword {
   super(material);
   setRegistryName("hay_sword");
   setTranslationKey("hay_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

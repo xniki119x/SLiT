@@ -8,6 +8,6 @@ public class HayShovel extends ItemSpade {
   super(material);
   setRegistryName("hay_shovel");
   setTranslationKey("hay_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

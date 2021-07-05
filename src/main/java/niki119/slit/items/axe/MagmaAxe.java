@@ -8,6 +8,6 @@ public class MagmaAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("magma_axe");
   setTranslationKey("magma_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

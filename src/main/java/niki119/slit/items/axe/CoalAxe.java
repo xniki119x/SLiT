@@ -8,6 +8,6 @@ public class CoalAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("coal_axe");
   setTranslationKey("coal_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

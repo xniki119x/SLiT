@@ -8,6 +8,6 @@ public class AndesiteShovel extends ItemSpade {
   super(material);
   setRegistryName("andesite_shovel");
   setTranslationKey("andesite_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

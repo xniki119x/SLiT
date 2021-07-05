@@ -8,6 +8,6 @@ public class SlimeSword extends ItemSword {
   super(material);
   setRegistryName("slime_sword");
   setTranslationKey("slime_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

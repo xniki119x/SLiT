@@ -8,6 +8,6 @@ public class Mushroom_block_brownPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("mushroom_block_brown_pickaxe");
   setTranslationKey("mushroom_block_brown_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

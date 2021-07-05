@@ -8,6 +8,6 @@ public class CactusPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("cactus_pickaxe");
   setTranslationKey("cactus_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

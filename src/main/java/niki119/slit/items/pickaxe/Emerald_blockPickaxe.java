@@ -8,6 +8,6 @@ public class Emerald_blockPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("emerald_block_pickaxe");
   setTranslationKey("emerald_block_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

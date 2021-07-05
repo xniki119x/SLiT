@@ -8,6 +8,6 @@ public class ClayShovel extends ItemSpade {
   super(material);
   setRegistryName("clay_shovel");
   setTranslationKey("clay_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

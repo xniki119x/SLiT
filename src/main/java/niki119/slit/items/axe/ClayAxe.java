@@ -8,6 +8,6 @@ public class ClayAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("clay_axe");
   setTranslationKey("clay_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

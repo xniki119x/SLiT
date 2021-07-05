@@ -8,6 +8,6 @@ public class Emerald_blockHoe extends ItemHoe {
   super(material);
   setRegistryName("emerald_block_hoe");
   setTranslationKey("emerald_block_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

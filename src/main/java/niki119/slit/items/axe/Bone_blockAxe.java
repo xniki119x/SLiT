@@ -8,6 +8,6 @@ public class Bone_blockAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("bone_block_axe");
   setTranslationKey("bone_block_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

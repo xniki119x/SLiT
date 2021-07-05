@@ -8,6 +8,6 @@ public class HayHoe extends ItemHoe {
   super(material);
   setRegistryName("hay_hoe");
   setTranslationKey("hay_hoe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabHoe);
  }
 }

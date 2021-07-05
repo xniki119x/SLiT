@@ -8,6 +8,6 @@ public class Bone_blockPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("bone_block_pickaxe");
   setTranslationKey("bone_block_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

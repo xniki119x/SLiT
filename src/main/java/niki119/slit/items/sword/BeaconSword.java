@@ -8,6 +8,6 @@ public class BeaconSword extends ItemSword {
   super(material);
   setRegistryName("beacon_sword");
   setTranslationKey("beacon_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

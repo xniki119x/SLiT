@@ -8,6 +8,6 @@ public class PurpurPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("purpur_pickaxe");
   setTranslationKey("purpur_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

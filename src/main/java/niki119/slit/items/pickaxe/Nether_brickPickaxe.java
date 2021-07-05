@@ -8,6 +8,6 @@ public class Nether_brickPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("nether_brick_pickaxe");
   setTranslationKey("nether_brick_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

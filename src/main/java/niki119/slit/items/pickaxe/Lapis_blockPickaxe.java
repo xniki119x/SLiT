@@ -8,6 +8,6 @@ public class Lapis_blockPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("lapis_block_pickaxe");
   setTranslationKey("lapis_block_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

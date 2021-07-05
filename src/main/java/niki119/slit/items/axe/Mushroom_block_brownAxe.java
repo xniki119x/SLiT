@@ -8,6 +8,6 @@ public class Mushroom_block_brownAxe extends ItemAxe {
   super(material,1,1);
   setRegistryName("mushroom_block_brown_axe");
   setTranslationKey("mushroom_block_brown_axe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabAxe);
  }
 }

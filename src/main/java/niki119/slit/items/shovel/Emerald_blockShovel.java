@@ -8,6 +8,6 @@ public class Emerald_blockShovel extends ItemSpade {
   super(material);
   setRegistryName("emerald_block_shovel");
   setTranslationKey("emerald_block_shovel");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabShovel);
  }
 }

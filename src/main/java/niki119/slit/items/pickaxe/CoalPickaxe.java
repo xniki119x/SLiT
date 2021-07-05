@@ -8,6 +8,6 @@ public class CoalPickaxe extends ItemPickaxe {
   super(material);
   setRegistryName("coal_pickaxe");
   setTranslationKey("coal_pickaxe");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabPickaxe);
  }
 }

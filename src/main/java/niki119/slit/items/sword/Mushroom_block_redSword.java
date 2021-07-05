@@ -8,6 +8,6 @@ public class Mushroom_block_redSword extends ItemSword {
   super(material);
   setRegistryName("mushroom_block_red_sword");
   setTranslationKey("mushroom_block_red_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }

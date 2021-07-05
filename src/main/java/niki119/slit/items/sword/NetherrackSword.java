@@ -8,6 +8,6 @@ public class NetherrackSword extends ItemSword {
   super(material);
   setRegistryName("netherrack_sword");
   setTranslationKey("netherrack_sword");
-  setCreativeTab(SLiT.creativeTab);
+  setCreativeTab(SLiT.creativeTabSword);
  }
 }
