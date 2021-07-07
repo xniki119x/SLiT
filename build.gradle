@@ -13,7 +13,7 @@ buildscript {
 
 apply plugin: "net.minecraftforge.gradle.forge"
 
-version = modVersion
+version = mc_version+"-"+modVersion
 group = modGroup
 archivesBaseName = modBaseName
 def username = "${modBaseName}"
