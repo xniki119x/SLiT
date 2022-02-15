@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    " P",
+    " P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:clay",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "slit:clay_hoe",
+    "count": 1
+  }
+}

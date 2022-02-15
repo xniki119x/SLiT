@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "S",
+    "S"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:stone",
+      "data": 1
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "slit:granite_shovel",
+    "count": 1
+  }
+}

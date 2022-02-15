@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    "PS",
+    " S"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:chorus_flower",
+      "data": 0
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "slit:chorus_axe",
+    "count": 1
+  }
+}

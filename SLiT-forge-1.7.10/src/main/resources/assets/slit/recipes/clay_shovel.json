@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:clay",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "slit:clay_shovel",
+    "count": 1
+  }
+}

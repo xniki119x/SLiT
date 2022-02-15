@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "slit",
+    "name": "SLiT",
+    "description": "",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [ "niki119" ],
+    "credits": "",
+    "logoFile": "logo.png",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

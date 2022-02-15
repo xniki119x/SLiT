@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    "PS",
+    " S"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:lapis_block",
+      "data": 0
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "slit:lapis_block_axe",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    "PP",
+    " P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:sand",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "slit:sand_axe",
+    "count": 1
+  }
+}

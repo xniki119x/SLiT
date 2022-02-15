@@ -1,0 +1,55 @@
+buildscript {
+    repositories {
+        maven {
+            name = "forge"
+            url = "https://files.minecraftforge.net/maven"
+        }
+    }
+    dependencies {
+        classpath "net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT"
+    }
+}
+
+apply plugin: "net.minecraftforge.gradle.forge"
+
+version = mc_version+"-"+mod_version
+group = modGroup
+archivesBaseName = modName
+minecraft {
+    version = "${mc_version}-${forge_version}"
+    runDir = "run"
+    clientRunArgs += "--username=${author}"
+    mappings = "${mappings_version}"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+processResources {
+    inputs.property "version", mod_version
+    inputs.property "mcversion", project.minecraft.version
+    from(sourceSets.main.resources.srcDirs) {
+        include "mcmod.info"
+        expand "version": project.version, "mcversion": project.minecraft.version
+    }
+    from(sourceSets.main.resources.srcDirs) {
+        exclude "mcmod.info"
+    }
+}
+
+jar {
+    classifier = ''
+    from sourceSets.main.output
+    from sourceSets.api.output
+    manifest.mainAttributes(
+            "Built-By": System.getProperty('user.name'),
+            "Created-By": "${System.getProperty('java.vm.version')} + (${System.getProperty('java.vm.vendor')})",
+            "Implementation-Title": project.name,
+            "Implementation-Version": project.version,
+            "Built-On": "${mc_version}-${forge_version}"
+    )
+}

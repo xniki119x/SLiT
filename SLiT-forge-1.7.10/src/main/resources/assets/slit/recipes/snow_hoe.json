@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    " P",
+    " P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:snow",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "slit:snow_hoe",
+    "count": 1
+  }
+}

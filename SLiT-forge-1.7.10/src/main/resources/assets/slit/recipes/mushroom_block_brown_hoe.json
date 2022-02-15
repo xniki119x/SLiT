@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    " S",
+    " S"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:brown_mushroom_block",
+      "data": 0
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "slit:mushroom_block_brown_hoe",
+    "count": 1
+  }
+}

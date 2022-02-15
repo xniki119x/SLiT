@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:nether_brick",
+      "data": 0
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "slit:nether_brick_pickaxe",
+    "count": 1
+  }
+}

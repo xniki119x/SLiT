@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:sand",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "slit:sand_shovel",
+    "count": 1
+  }
+}

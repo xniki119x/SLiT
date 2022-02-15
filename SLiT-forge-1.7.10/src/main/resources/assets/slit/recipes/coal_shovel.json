@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "S",
+    "S"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:coal_block",
+      "data": 0
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "slit:coal_shovel",
+    "count": 1
+  }
+}

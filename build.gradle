@@ -1,59 +1,6 @@
-buildscript {
-    repositories {
-        //jcenter()
-        maven {
-            name = "forge"
-            url = "https://files.minecraftforge.net/maven"
-        }
-    }
-    dependencies {
-        classpath "net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT"
-    }
+apply plugin: 'java'
+compileJava{
+    options.setEncoding("UTF-8")
 }
-
-apply plugin: "net.minecraftforge.gradle.forge"
-
-version = mc_version+"-"+modVersion
-group = modGroup
-archivesBaseName = modBaseName
-def username = "${modBaseName}"
-minecraft {
-    version = "${mc_version}-${forge_version}"
-    runDir = "run"
-    replace "@VERSION@", project.version
-    replaceIn "SLiT.java"
-    clientRunArgs += "--username=${username}"
-    mappings = project.mcpVersion
-}
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-}
-
-processResources {
-    inputs.property "version", project.version
-    inputs.property "mcversion", project.minecraft.version
-    from(sourceSets.main.resources.srcDirs) {
-        include "mcmod.info"
-        expand "version": project.version, "mcversion": project.minecraft.version
-    }
-    from(sourceSets.main.resources.srcDirs) {
-        exclude "mcmod.info"
-    }
-}
-
-jar {
-    classifier = ''
-    from sourceSets.main.output
-    from sourceSets.api.output
-    manifest.mainAttributes(
-            "Built-By": System.getProperty('user.name'),
-            "Created-By": "${System.getProperty('java.vm.version')} + (${System.getProperty('java.vm.vendor')})",
-            "Implementation-Title": project.name,
-            "Implementation-Version": project.version,
-            "Built-On": "${mc_version}-${forge_version}"
-    )
-}
+sourceCompatibility = 1.8
+targetCompatibility = 1.8

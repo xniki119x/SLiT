@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:gravel",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "slit:gravel_shovel",
+    "count": 1
+  }
+}

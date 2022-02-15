@@ -1,0 +1,3 @@
+rootProject.name="SLiT"
+include 'SLiT-forge-1.7.10'
+include 'SLiT-forge-1.12.2'

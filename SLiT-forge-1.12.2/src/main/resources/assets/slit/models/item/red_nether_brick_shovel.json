@@ -1,0 +1,7 @@
+{
+  "parent":"item/handheld",
+  "textures":
+    {
+      "layer0":"slit:items/red_nether_brick_shovel"
+    }
+}
