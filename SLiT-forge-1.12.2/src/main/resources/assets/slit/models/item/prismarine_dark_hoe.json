@@ -1,7 +1,0 @@
-{
-  "parent":"item/handheld",
-  "textures":
-    {
-      "layer0":"slit:items/prismarine_dark_hoe"
-    }
-}
