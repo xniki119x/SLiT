@@ -1,13 +1,13 @@
 package niki119.slit.items.axe;
 
-import net.minecraft.item.ItemAxe;
+import net.minecraft.item.AxeItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.StatCollector;
+import net.minecraft.item.ItemTier;
 import niki119.slit.SLiT;
 
-public class AndesiteAxe extends ItemAxe {
- public AndesiteAxe(ToolMaterial material){
-  super(material);
+public class AndesiteAxe extends AxeItem {
+ public AndesiteAxe(){
+  super(ItemTier.STONE,2,2,new Properties().tab(SLiT.creativeTabAxe));
   setUnlocalizedName("slit:andesite_axe");
   setTextureName("slit:andesite_axe");
   setCreativeTab(SLiT.creativeTabAxe);
