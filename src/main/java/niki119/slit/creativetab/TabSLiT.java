@@ -18,6 +18,7 @@ public class TabSLiT extends CreativeTabs {
             case "creative_tab_sword":{return ModItems.BEDROCKSWORD;}
             case "creative_tab_shovel":{return ModItems.TNT_BOTTOMSHOVEL;}
             case "creative_tab_hoe":{return ModItems.MELON_SIDEHOE;}
+            case "creative_tab_armor":{return ModItems.beacon_armor_chestplate;}
             default:{return ModItems.DIRTPICKAXE;}}
     }
 }

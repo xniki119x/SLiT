@@ -22,6 +22,7 @@ public class SLiT {
     public static final CreativeTabs creativeTabSword = new TabSLiT("creative_tab_sword");
     public static final CreativeTabs creativeTabHoe = new TabSLiT("creative_tab_hoe");
     public static final CreativeTabs creativeTabShovel = new TabSLiT("creative_tab_shovel");
+    public static final CreativeTabs creativeTabArmor = new TabSLiT("creative_tab_armor");
     public static final String CLIENT_PROXY = "niki119.slit.proxy.ClientProxy";
     public static final String COMMON_PROXY = "niki119.slit.proxy.CommonProxy";
     @Mod.Instance(MODID)
